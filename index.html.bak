@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ذرة سكر - حلويات منزلية فاخرة في دبي</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <img src="logo.png" alt="ذرة سكر" class="logo-image">
+                <h1 class="logo">ذرة سكر</h1>
+                <ul class="nav-links">
+                    <li><a href="#home">الرئيسية</a></li>
+                    <li><a href="#about">من نحن</a></li>
+                    <li><a href="#products">المنتجات</a></li>
+                    <li><a href="#gallery">المعرض</a></li>
+                    <li><a href="#contact">التواصل</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663438432554/crBC7JNt2DYWCx3W9KJPbd/hero-sweets-Nyoj4xMX4zxmAq4e4xADb7.webp" alt="حلويات فاخرة" class="hero-image">
+            <div class="hero-overlay">
+                <h2>حلويات منزلية فاخرة في دبي</h2>
+                <p>نقدم أشهى الحلويات العربية المصنوعة بحب وجودة عالية، لتناسب جميع مناسباتكم</p>
+                <div class="hero-buttons">
+                    <a href="https://wa.me/971562226706?text=مرحبا%20أود%20الطلب%20من%20ذرة%20سكر" class="btn btn-primary" target="_blank">اطلب الآن عبر واتساب</a>
+                    <a href="#products" class="btn btn-secondary">تصفح المنتجات</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>من نحن</h2>
+            <p>في ذرة سكر، نقدم لكم حلويات منزلية بطابع عربي أصيل ولمسة عصرية. نحرص على الجودة، الطعم المميز، والتقديم الأنيق في كل طلب.</p>
+        </div>
+    </section>
+
+    <!-- Why Us Section -->
+    <section class="why-us">
+        <div class="container">
+            <h2>لماذا نحن</h2>
+            <div class="why-us-grid">
+                <div class="why-us-card">
+                    <div class="icon">🍯</div>
+                    <h3>طازج يوميًا</h3>
+                    <p>نصنع الحلويات بعناية يومية لضمان الطزاجة والجودة</p>
+                </div>
+                <div class="why-us-card">
+                    <div class="icon">🎨</div>
+                    <h3>وصفات عربية أصلية</h3>
+                    <p>نستخدم الوصفات التقليدية الفلسطينية الأصيلة</p>
+                </div>
+                <div class="why-us-card">
+                    <div class="icon">✨</div>
+                    <h3>جودة عالية</h3>
+                    <p>أفضل المكونات والمواد الطبيعية في كل منتج</p>
+                </div>
+                <div class="why-us-card">
+                    <div class="icon">🎉</div>
+                    <h3>مثالي للمناسبات</h3>
+                    <p>تغليف أنيق وتقديم فاخر لجميع المناسبات</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <h2>منتجاتنا</h2>
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="maamoul-dates.png" alt="معمول التمر الفاخر">
+                    <div class="product-info">
+                        <h3>معمول التمر الفاخر</h3>
+                        <div class="product-prices">
+                            <p>½ كيلو: <span>45 درهم</span></p>
+                            <p>كيلو: <span>90 درهم</span></p>
+                            <p>2 كيلو: <span>170 درهم</span></p>
+                        </div>
+                        <a href="https://wa.me/971562226706?text=أود%20طلب%20معمول%20التمر%20الفاخر" class="btn btn-small" target="_blank">اطلب الآن</a>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="mini-mabroussa.png" alt="ميني مبروشة">
+                    <div class="product-info">
+                        <h3>ميني مبروشة</h3>
+                        <p class="product-description">فراولة، شوكولاتة، لوتس</p>
+                        <div class="product-prices">
+                            <p>33 قطعة: <span>65 درهم</span></p>
+                            <p>24 قطعة: <span>45 درهم</span></p>
+                        </div>
+                        <a href="https://wa.me/971562226706?text=أود%20طلب%20ميني%20مبروشة" class="btn btn-small" target="_blank">اطلب الآن</a>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="eid-cake.png" alt="كعك العيد الفلسطيني">
+                    <div class="product-info">
+                        <h3>كعك العيد الفلسطيني</h3>
+                        <p class="product-description">وصفة تقليدية أصيلة</p>
+                        <a href="https://wa.me/971562226706?text=أود%20طلب%20كعك%20العيد%20الفلسطيني" class="btn btn-small" target="_blank">اطلب الآن</a>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663438432554/crBC7JNt2DYWCx3W9KJPbd/assorted-box-K5ZJBMU5vbVD3zsPxjAag3.webp" alt="بوكسات حلويات مشكلة">
+                    <div class="product-info">
+                        <h3>بوكسات حلويات مشكلة</h3>
+                        <p class="product-description">مزيج فاخر من منتجاتنا</p>
+                        <a href="https://wa.me/971562226706?text=أود%20طلب%20بوكسة%20حلويات%20مشكلة" class="btn btn-small" target="_blank">اطلب الآن</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2>معرض الصور</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663438432554/crBC7JNt2DYWCx3W9KJPbd/gallery-1-6XTBwSoK7R67JTauXFgW6s.webp" alt="معرض الصور 1">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663438432554/crBC7JNt2DYWCx3W9KJPbd/gallery-2-TsSvgSmuv8V5GbxpVzcdxD.webp" alt="معرض الصور 2">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663438432554/crBC7JNt2DYWCx3W9KJPbd/gallery-3-9eTkfzurEKtynEk7ou8Efz.webp" alt="معرض الصور 3">
+                </div>
+                <div class="gallery-item">
+                    <img src="https://d2xsxph8kpxj0f.cloudfront.net/310519663438432554/crBC7JNt2DYWCx3W9KJPbd/gallery-4-L8cLqXuEtctyZchTxCminf.webp" alt="معرض الصور 4">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Section -->
+    <section class="order-cta">
+        <div class="container">
+            <h2>اطلب الآن</h2>
+            <p>للطلب أو الاستفسار، تواصل معنا عبر واتساب</p>
+            <a href="https://wa.me/971562226706?text=مرحبا%20أود%20الطلب%20من%20ذرة%20سكر" class="btn btn-primary btn-large" target="_blank">اطلب عبر واتساب</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>تواصل معنا</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <h3>📍 الموقع</h3>
+                    <p>دبي، الإمارات العربية المتحدة</p>
+                </div>
+                <div class="contact-item">
+                    <h3>📱 رقم الطلب</h3>
+                    <p><a href="https://wa.me/971562226706" target="_blank">0562226706</a></p>
+                </div>
+                <div class="contact-item">
+                    <h3>📸 إنستغرام</h3>
+                    <p><a href="https://instagram.com/atom_of_sugar" target="_blank">@atom_of_sugar</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 ذرة سكر - جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

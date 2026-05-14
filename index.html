@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="google-site-verification" content="Jx-FTa33AKi1yU0yQ8ZWASZR8gaTqFDk6_47szPpjIo" />
+    
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-78G2SPMNGV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-78G2SPMNGV');
+    </script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ذرة سكر - حلويات منزلية فاخرة في دبي</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="brand-unit">
+                <img src="logo.png" alt="ذرة سكر" class="brand-logo">
+                <div class="brand-info">
+                    <h1 class="brand-name">ذرة سكر</h1>
+                    <p class="brand-tagline">ATOM OF SUGAR</p>
+                </div>
+            </div>
+
+            <nav class="navbar">
+                <ul class="nav-links">
+                    <li class="lang-switcher">
+                        <button type="button" class="lang-btn active" onclick="setLanguage('ar')" aria-label="Arabic">
+                            <img src="uae-flag.png" alt="العربية">
+                        </button>
+                        <button type="button" class="lang-btn" onclick="setLanguage('en')" aria-label="English">
+                            <img src="uk-flag.png" alt="English">
+                        </button>
+                    </li>
+
+                    <li><a href="#home" id="nav-home">الرئيسية</a></li>
+                    <li><a href="#about" id="nav-about">من نحن</a></li>
+                    <li><a href="#products" id="nav-products">التشكيلة</a></li>
+                    <li><a href="#contact" id="nav-contact">تواصل معنا</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 id="hero-title">حلويات منزلية فاخرة تُحضَّر يومياً بعناية</h1>
+            <p id="hero-text">نقدّم لكم تشكيلة مختارة من الحلويات الشرقية الفاخرة، تُحضَّر يومياً بمكونات عالية الجودة ولمسة منزلية راقية تليق بكل مناسبة</p>
+            <div class="hero-buttons">
+                <a href="https://wa.me/971522622363" class="btn btn-primary" target="_blank" id="hero-btn">اطلب عبر واتساب</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2 id="about-title">من نحن</h2>
+            <p id="about-text">في ذرة سكر نقدم لكم حلويات منزلية تحضر يوميا بعناية باستخدام مكونات عالية الجودة ووصفات مميزة لنقدم لكم طعما لا ينسى في كل طلب</p>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <div class="container">
+            <h2 id="why-title">لماذا ذرة سكر</h2>
+            <div class="why-us-grid">
+                <div class="why-us-card">
+                    <h3 id="why-card-1-title">جودة مختارة</h3>
+                    <p id="why-card-1-text">نعتمد على مكونات طازجة وعالية الجودة لضمان طعم غني وتجربة مميزة في كل قطعة</p>
+                </div>
+                <div class="why-us-card">
+                    <h3 id="why-card-2-title">تحضير يومي</h3>
+                    <p id="why-card-2-text">يتم تحضير الطلبات بعناية يومية للحفاظ على الطزاجة وتقديم أفضل مستوى من الجودة</p>
+                </div>
+                <div class="why-us-card">
+                    <h3 id="why-card-3-title">طعم يليق بالمناسبات</h3>
+                    <p id="why-card-3-text">وصفات منزلية بنكهة أصيلة ولمسة راقية تجعلها مثالية للضيافة والهدايا والتجمعات</p>
+                </div>
+                <div class="why-us-card">
+                    <h3 id="why-card-4-title">تقديم أنيق</h3>
+                    <p id="why-card-4-text">حلويات مناسبة للتقديم الراقي في المناسبات الخاصة والزيارات والهدايا المميزة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2 id="products-title">تشكيلة مختارة</h2>
+            <div class="products-grid">
+
+                <div class="product-card">
+                    <img src="mini-mabrousha-flavors.png" alt="ميني مبروشة بنكهات مختلفة">
+                    <div class="product-info">
+                        <h3 id="product-mini-title">ميني مبروشة بنكهات مختلفة</h3>
+                        <p class="product-description" id="product-mini-desc">
+                            ميني مبروشة متنوعة بنكهات مميزة، مثالية للتقديم الأنيق والضيافة والتوزيعات
+                        </p>
+                        <p class="product-note" id="product-note-1">الكمية محدودة - الحجز مسبق</p>
+                        <button class="btn btn-primary product-view-btn" type="button" onclick="openProductPopup('mini-mabrousha')">عرض الخيارات</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="kaak-eid-new.png" alt="كعك العيد">
+                    <div class="product-info">
+                        <h3 id="product-kaak-title">كعك العيد</h3>
+                        <p class="product-description" id="product-kaak-desc">
+                            كعك تقليدي فاخر محشو بالتمر ومغطى بالسمسم، بطعم أصيل يليق بالضيافة والمناسبات
+                        </p>
+                        <p class="product-note" id="product-note-2">الكمية محدودة - الحجز مسبق</p>
+                        <button class="btn btn-primary product-view-btn" type="button" onclick="openProductPopup('kaak-eid')">عرض الخيارات</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="maqroota-tamar.png" alt="مقروطة التمر الفلسطينية">
+                    <div class="product-info">
+                        <h3 id="product-maqroota-title">مقروطة التمر الفلسطينية</h3>
+                        <p class="product-description" id="product-maqroota-desc">
+                           مقروطة فلسطينية بطبقات غنية ونكهة أصيلة، محضّرة بعناية لتقدّم تجربة مميزة مع القهوة العربية
+                        </p>
+                        <p class="product-note" id="product-note-3">الكمية محدودة - الحجز مسبق</p>
+                        <button class="btn btn-primary product-view-btn" type="button" onclick="openProductPopup('maqroota-tamar')">عرض الخيارات</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="maamoul-tamar.png" alt="معمول التمر">
+                    <div class="product-info">
+                        <h3 id="product-maamoul-title">معمول التمر</h3>
+                        <p class="product-description" id="product-maamoul-desc">
+                           معمول تمر فاخر محضّر بطريقة تقليدية بطعم غني وقوام ناعم، مناسب للتقديم في جميع المناسبات
+                        </p>
+                        <p class="product-note" id="product-note-4">الكمية محدودة - الحجز مسبق</p>
+                        <button class="btn btn-primary product-view-btn" type="button" onclick="openProductPopup('maamoul-tamar')">عرض الخيارات</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="maqroota-tamar-taweel.png" alt="اصابع تمر">
+                    <div class="product-info">
+                        <h3 id="product-fingers-title">اصابع تمر</h3>
+                        <p class="product-description" id="product-fingers-desc">
+                           أصابع تمر مغطاة بالسمسم، غنية بالنكهة والقوام، ومثالية للضيافة الراقية والتقديم اليومي
+                        </p>
+                        <p class="product-note" id="product-note-5">الكمية محدودة - الحجز مسبق</p>
+                        <button class="btn btn-primary product-view-btn" type="button" onclick="openProductPopup('date-fingers')">عرض الخيارات</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="qatayef.png" alt="قطايف">
+                    <div class="product-info">
+                        <h3 id="product-qatayef-title">قطايف</h3>
+                        <p class="product-description" id="product-qatayef-desc">
+                           قطايف محضّرة بعناية بحشوات متنوعة مثل المكسرات والقشطة والجبنة، مناسبة للتقديم بطابع شرقي فاخر
+                        </p>
+                        <p class="product-note" id="product-note-6">الكمية محدودة - الحجز مسبق</p>
+                        <button class="btn btn-primary product-view-btn" type="button" onclick="openProductPopup('qatayef')">عرض الخيارات</button>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <img src="luxury-sweets-box.png" alt="بوكس حلويات فاخر">
+                    <div class="product-info">
+                        <h3 id="product-box-title">بوكس حلويات فاخر</h3>
+                        <p class="product-description" id="product-box-desc">
+                            تشكيلة حلويات فاخرة تناسب جميع المناسبات والتقديمات الراقية وتُحضّر بعناية خاصة حسب الطلب
+                        </p>
+                        <p class="product-note" id="product-note-7">الكمية محدودة - الحجز مسبق</p>
+                        <button class="btn btn-primary product-view-btn" type="button" onclick="openProductPopup('luxury-sweets-box')">عرض الخيارات</button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+        <div class="container">
+            <h2 id="cta-title">اطلب الآن</h2>
+            <p id="cta-text">للطلب أو الاستفسار، تواصل معنا مباشرة عبر واتساب</p>
+            <a href="https://wa.me/971522622363" class="btn btn-primary" target="_blank" id="cta-btn">اطلب عبر واتساب</a>
+            <p class="delivery-message" id="delivery-text">خدمة توصيل لجميع مناطق الامارات بعناية واهتمام</p>
+        </div>
+    </section>
+
+    <section class="important-info">
+        <div class="container">
+            <h2 id="info-title">معلومات مهمة قبل الطلب</h2>
+            <p class="section-subtitle" id="info-subtitle">معلومات مختصرة وواضحة لتجربة طلب مريحة ومناسبة لكم</p>
+            <div class="info-cards-grid">
+                <div class="info-card">
+                    <h3 id="allergy-title">معلومات الحساسية</h3>
+                    <p id="allergy-text-1">قد تحتوي بعض منتجاتنا على مكونات مثل الحليب والبيض والقمح والمكسرات والسمسم</p>
+                    <p id="allergy-text-2">يتم التحضير في نفس بيئة العمل، لذلك قد يحدث تلامس بين المكونات</p>
+                    <p id="allergy-text-3">يرجى ابلاغنا مسبقا في حال وجود اي حساسية</p>
+                </div>
+                <div class="info-card">
+                    <h3 id="policy-title">سياسة الطلب</h3>
+                    <p id="policy-text-1">جميع الطلبات تتم عبر واتساب فقط</p>
+                    <p id="policy-text-2">يتم تاكيد الطلب بعد الاتفاق على التفاصيل</p>
+                    <p id="policy-text-3">بعض المنتجات تحتاج حجز مسبق حسب الكمية</p>
+                    <p id="policy-text-4">التوصيل متوفر لجميع مناطق دولة الامارات</p>
+                    <p id="policy-text-5">رسوم التوصيل يتم توضيحها عند تاكيد الطلب</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 id="contact-title">تواصل معنا</h2>
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <a href="https://www.instagram.com/atom_of_sugar/" target="_blank" class="contact-item-link">
+                        <h3 id="contact-instagram-title">انستغرام</h3>
+                        <p>atom_of_sugar</p>
+                    </a>
+                </div>
+                <div class="contact-item">
+                    <h3 id="contact-location-title">الموقع</h3>
+                    <p id="contact-location-text">دبي - الامارات العربية المتحدة</p>
+                </div>
+                <div class="contact-item">
+                    <a href="https://wa.me/971522622363" target="_blank" class="contact-item-link">
+                        <h3 id="contact-whatsapp-title">للطلب عبر واتساب</h3>
+                        <p>0522622363</p>
+                        <p class="contact-note" id="contact-whatsapp-note">الطلب يتم عبر واتساب فقط</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3 id="footer-brand-title">ذرة سكر</h3>
+                    <p id="footer-brand-text">حلويات منزلية فاخرة تُحضَّر يومياً بعناية</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home" id="footer-home">الرئيسية</a> |
+                    <a href="#about" id="footer-about">من نحن</a> |
+                    <a href="#products" id="footer-products">التشكيلة</a> |
+                    <a href="#contact" id="footer-contact">التواصل</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p id="footer-copy">© 2026 ذرة سكر - جميع الحقوق محفوظة</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/971522622363" class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="#ffffff"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547.546 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+    </a>
+
+    <div id="productPopup" class="product-popup popup-hidden">
+        <div class="product-popup-overlay" onclick="closeProductPopup()"></div>
+
+        <div class="product-popup-card">
+            <button class="product-popup-close" type="button" onclick="closeProductPopup()">×</button>
+            <div class="product-popup-handle"></div>
+
+            <div class="product-popup-image-wrap">
+                <img id="popupImage" class="product-popup-image" src="" alt="">
+            </div>
+
+            <div class="product-popup-body">
+                <h3 id="popupTitle" class="product-popup-title"></h3>
+                <p id="popupDescription" class="product-popup-desc"></p>
+
+                <div class="product-popup-field">
+                    <label id="popup-option-label">اختر الخيار</label>
+                    <div id="popupOptions" class="option-grid"></div>
+                </div>
+
+                <div id="popupFlavorSection" class="product-popup-field popup-hidden">
+                    <label id="popup-flavor-label">اختر النكهات</label>
+                    <div class="flavor-grid">
+                        <div class="flavor-card" onclick="toggleFlavor('strawberry', this)">
+                            <img src="flavor-strawberry.png" alt="Strawberry">
+                            <span id="flavor-strawberry-label">فراولة</span>
+                        </div>
+                        <div class="flavor-card" onclick="toggleFlavor('chocolate', this)">
+                            <img src="flavor-chocolate.png" alt="Chocolate">
+                            <span id="flavor-chocolate-label">شوكولاتة</span>
+                        </div>
+                        <div class="flavor-card" onclick="toggleFlavor('lotus', this)">
+                            <img src="flavor-lotus.png" alt="Lotus">
+                            <span id="flavor-lotus-label">لوتس</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-popup-field">
+                    <label id="popup-qty-label">الكمية</label>
+                    <div class="product-popup-qty">
+                        <button type="button" onclick="changePopupQty(-1)">-</button>
+                        <span id="popupQty">1</span>
+                        <button type="button" onclick="changePopupQty(1)">+</button>
+                    </div>
+                </div>
+
+                <div class="product-popup-field">
+                    <label id="popup-extra-label">خيارات إضافية</label>
+                    <div class="gift-options">
+                        <label class="gift-item">
+                            <span id="gift-wrap-label">تغليف هدية (+10 درهم)</span>
+                            <input type="checkbox" value="10" data-name-ar="تغليف هدية" data-name-en="Gift Wrapping">
+                        </label>
+
+                        <label class="gift-item">
+                            <span id="gift-card-label">بطاقة تهنئة (+5 درهم)</span>
+                            <input type="checkbox" value="5" data-name-ar="بطاقة تهنئة" data-name-en="Greeting Card">
+                        </label>
+
+                        <label class="gift-item">
+                            <span id="gift-mix-label">تشكيلة متنوعة (+15 درهم)</span>
+                            <input type="checkbox" value="15" data-name-ar="تشكيلة متنوعة" data-name-en="Mixed Selection">
+                        </label>
+                    </div>
+                </div>
+
+                <div class="product-popup-field">
+                    <label for="popupNotes" id="popup-notes-label">ملاحظات خاصة</label>
+                    <textarea id="popupNotes" class="product-popup-notes" placeholder="اكتب ملاحظاتك هنا"></textarea>
+                </div>
+
+                <div class="product-popup-total">
+                    <span id="popup-total-label">الإجمالي</span>
+                    <strong id="popupTotal">—</strong>
+                </div>
+
+                <div class="product-popup-actions">
+                    <button type="button" class="product-popup-send" onclick="sendPopupOrder()" id="popup-send-btn">إرسال الطلب</button>
+                    <button type="button" class="product-popup-cancel" onclick="closeProductPopup()" id="popup-close-btn">إغلاق</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
