@@ -806,3 +806,31 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+const aosMenuBtn = document.getElementById("aosMenuBtn");
+const aosDrawerClose = document.getElementById("aosDrawerClose");
+const aosDrawerOverlay = document.getElementById("aosDrawerOverlay");
+const aosDrawerLinks = document.querySelectorAll(".aos-drawer-nav a, .aos-drawer-lang button");
+
+function openAosMenu() {
+  document.body.classList.add("aos-menu-open");
+}
+
+function closeAosMenu() {
+  document.body.classList.remove("aos-menu-open");
+}
+
+if (aosMenuBtn) {
+  aosMenuBtn.addEventListener("click", openAosMenu);
+}
+
+if (aosDrawerClose) {
+  aosDrawerClose.addEventListener("click", closeAosMenu);
+}
+
+if (aosDrawerOverlay) {
+  aosDrawerOverlay.addEventListener("click", closeAosMenu);
+}
+
+aosDrawerLinks.forEach((item) => {
+  item.addEventListener("click", closeAosMenu);
+});
