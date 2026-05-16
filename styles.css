@@ -1774,3 +1774,25 @@ body.aos-menu-open .aos-mobile-drawer {
   }
 }
 }
+
+/* CENTER IMPORTANT INFO CARDS */
+.info-card,
+.info-card h3,
+.info-card p {
+  text-align: center !important;
+}
+
+.info-card {
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+@media (max-width: 768px) {
+  .info-card {
+    padding: 24px 18px !important;
+  }
+
+  .info-card p {
+    line-height: 2 !important;
+  }
+}
