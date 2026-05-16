@@ -1748,3 +1748,29 @@ body.aos-menu-open .aos-mobile-drawer {
   }
 }
 
+
+/* DESKTOP SINGLE LANGUAGE BUTTON + REMOVE BLACK FLOAT */
+@media (min-width: 769px) {
+  .desktop-lang .lang-btn {
+    display: none !important;
+  }
+
+  html[lang="ar"] .desktop-lang .lang-btn[aria-label="English"] {
+    display: inline-flex !important;
+  }
+
+  html[lang="en"] .desktop-lang .lang-btn[aria-label="Arabic"] {
+    display: inline-flex !important;
+  }
+
+  .mobile-menu-toggle,
+  #mobileMenuBtn {
+    display: none !important;
+  }
+
+@media (min-width: 769px) {
+  .aos-menu-btn {
+    display: none !important;
+  }
+}
+}
