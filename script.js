@@ -596,14 +596,14 @@ function renderOpenPopupContent() {
     if (!popupImage || !popupTitle || !popupDescription || !flavorSection) return;
 
     const imageMap = {
-        "mini-mabrousha": "Gourmet treats and Arabic coffee in Dubai.png",
-        "kaak-eid": "Savory biscuits and Arabic coffee.png",
-        "maqroota-tamar": "Golden date pastries with Arabic coffee.png",
-        "maamoul-tamar": "Rose pastries with Arabic coffee at twilight.png",
-        "date-fingers": "Sesame date rolls with Arabic coffee.png",
-        "qatayef": "Middle Eastern dessert spread with qatayef.png",
-        "luxury-sweets-box": "Elegant Middle Eastern sweets and coffee setup.png"
-    };
+    "mini-mabrousha": "mini-mabrousha-flavors.png",
+    "kaak-eid": "kaak-eid-new.png",
+    "maqroota-tamar": "maqroota-tamar.png",
+    "maamoul-tamar": "maamoul-tamar.png",
+    "date-fingers": "date-fingers.png",
+    "qatayef": "qatayef.png",
+    "luxury-sweets-box": "luxury-sweets-box.png"
+};
 
     popupImage.src = imageMap[currentProductKey];
     popupImage.alt = product.popupTitle;
